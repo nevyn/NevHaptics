@@ -14,6 +14,7 @@
 		050447E0206BCC8E006BCB97 /* NevHaptics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NevHaptics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		050447E3206BCC8E006BCB97 /* NevHaptics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NevHaptics.h; sourceTree = "<group>"; };
 		050447E4206BCC8E006BCB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		050447EB206BCCBB006BCB97 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +31,7 @@
 		050447D6206BCC8D006BCB97 = {
 			isa = PBXGroup;
 			children = (
+				050447EB206BCCBB006BCB97 /* README.md */,
 				050447E2206BCC8E006BCB97 /* NevHaptics */,
 				050447E1206BCC8E006BCB97 /* Products */,
 			);
