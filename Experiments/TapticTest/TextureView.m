@@ -14,6 +14,7 @@
     UIImpactFeedbackGenerator *_gen;
     UITouch *_trackedTouch;
     CGPoint _lastImpactPoint;
+    UILabel *_forceLabel;
 }
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder
@@ -23,6 +24,9 @@
     }
     _gen = [[UIImpactFeedbackGenerator alloc] initWithStyle:UIImpactFeedbackStyleLight];
     [_gen prepare];
+    
+    _forceLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 80, 40)];
+    [self addSubview:_forceLabel];
     return self;
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
@@ -44,17 +48,20 @@
         _lastImpactPoint = current;
     }
     
+    _forceLabel.text = [NSString stringWithFormat:@"%.2f/%.2f", _trackedTouch.force, _trackedTouch.maximumPossibleForce];
 }
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     if([touches containsObject:_trackedTouch]) {
         _trackedTouch = nil;
+        _forceLabel.text = @"";
     }
 }
 - (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     if([touches containsObject:_trackedTouch]) {
         _trackedTouch = nil;
+        _forceLabel.text = @"";
     }
 }
 
