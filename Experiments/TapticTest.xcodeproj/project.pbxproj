@@ -32,7 +32,7 @@
 		0536DA3E206BD9B200F29A71 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		0536DA40206C95FB00F29A71 /* TextureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureView.h; sourceTree = "<group>"; };
 		0536DA41206C95FB00F29A71 /* TextureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextureView.m; sourceTree = "<group>"; };
-		0536DA43206C97C800F29A71 /* CGVector+TCMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGVector+TCMath.h"; sourceTree = "<group>"; };
+		0536DA43206C97C800F29A71 /* CGVector+TCMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CGVector+TCMath.h"; path = "../TouchIntercept/CGVector+TCMath.h"; sourceTree = "<group>"; };
 		0536DA44206C9BA800F29A71 /* SurfaceTextureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SurfaceTextureViewController.h; sourceTree = "<group>"; };
 		0536DA45206C9BA800F29A71 /* SurfaceTextureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SurfaceTextureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */

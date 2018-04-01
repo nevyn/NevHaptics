@@ -15,6 +15,7 @@
 		0536DA63206CA0A100F29A71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0536DA61206CA0A100F29A71 /* LaunchScreen.storyboard */; };
 		0536DA66206CA0A100F29A71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0536DA65206CA0A100F29A71 /* main.m */; };
 		0536DA6E206CA49E00F29A71 /* NevHapticApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0536DA6D206CA49E00F29A71 /* NevHapticApp.m */; };
+		0536DA71206CA6CD00F29A71 /* UIResponder+NevHapticResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0536DA70206CA6CD00F29A71 /* UIResponder+NevHapticResponder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,10 @@
 		0536DA65206CA0A100F29A71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0536DA6C206CA49E00F29A71 /* NevHapticApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NevHapticApp.h; sourceTree = "<group>"; };
 		0536DA6D206CA49E00F29A71 /* NevHapticApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NevHapticApp.m; sourceTree = "<group>"; };
+		0536DA6F206CA6CD00F29A71 /* UIResponder+NevHapticResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+NevHapticResponder.h"; sourceTree = "<group>"; };
+		0536DA70206CA6CD00F29A71 /* UIResponder+NevHapticResponder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+NevHapticResponder.m"; sourceTree = "<group>"; };
+		05C2571820707FDE00B1B056 /* CGVector+TCMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGVector+TCMath.h"; sourceTree = "<group>"; };
+		05C257192070853E00B1B056 /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,19 +69,23 @@
 		0536DA52206CA0A100F29A71 /* TouchIntercept */ = {
 			isa = PBXGroup;
 			children = (
-				0536DA6C206CA49E00F29A71 /* NevHapticApp.h */,
-				0536DA6D206CA49E00F29A71 /* NevHapticApp.m */,
 				0536DA53206CA0A100F29A71 /* AppDelegate.h */,
 				0536DA54206CA0A100F29A71 /* AppDelegate.m */,
+				0536DA6C206CA49E00F29A71 /* NevHapticApp.h */,
+				0536DA6D206CA49E00F29A71 /* NevHapticApp.m */,
+				0536DA6F206CA6CD00F29A71 /* UIResponder+NevHapticResponder.h */,
+				0536DA70206CA6CD00F29A71 /* UIResponder+NevHapticResponder.m */,
 				0536DA56206CA0A100F29A71 /* FirstViewController.h */,
 				0536DA57206CA0A100F29A71 /* FirstViewController.m */,
 				0536DA59206CA0A100F29A71 /* SecondViewController.h */,
 				0536DA5A206CA0A100F29A71 /* SecondViewController.m */,
+				05C2571820707FDE00B1B056 /* CGVector+TCMath.h */,
 				0536DA5C206CA0A100F29A71 /* Main.storyboard */,
 				0536DA5F206CA0A100F29A71 /* Assets.xcassets */,
 				0536DA61206CA0A100F29A71 /* LaunchScreen.storyboard */,
 				0536DA64206CA0A100F29A71 /* Info.plist */,
 				0536DA65206CA0A100F29A71 /* main.m */,
+				05C257192070853E00B1B056 /* TODO.md */,
 			);
 			path = TouchIntercept;
 			sourceTree = "<group>";
@@ -156,6 +165,7 @@
 				0536DA55206CA0A100F29A71 /* AppDelegate.m in Sources */,
 				0536DA6E206CA49E00F29A71 /* NevHapticApp.m in Sources */,
 				0536DA66206CA0A100F29A71 /* main.m in Sources */,
+				0536DA71206CA6CD00F29A71 /* UIResponder+NevHapticResponder.m in Sources */,
 				0536DA58206CA0A100F29A71 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
